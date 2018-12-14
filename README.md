@@ -11,7 +11,7 @@
 1. ##### 创建一个Spring Boot工程，引入依赖。
 
 ```xml
-		<dependency>
+	<dependency>
             <groupId>cn.net.zhipeng</groupId>
             <artifactId>security-browser</artifactId>
             <version>1.0-SNAPSHOT</version>
@@ -33,11 +33,11 @@ signUpUrl = /demo-signUp.html
 
 - session管理相关配置，，前缀：zhipeng.security.browser.session，参见SessionProperties
 
-  ```
-  maximumSessions = 1
-  maxSessionsPreventsLogin = false
-  sessionInvalidUrl = /demo-session-invalid.html
-  ```
+```
+maximumSessions = 1
+maxSessionsPreventsLogin = false
+sessionInvalidUrl = /demo-session-invalid.html
+```
 
 - 图片验证码配置项，前缀：zhipeng.security.code.image， 参见ImageCodeProperties
 
