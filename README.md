@@ -8,7 +8,7 @@
 
 建议您的Spring Boot版本在2.x以下，可参考父项目的pom文件。
 
-1. ##### 创建一个Spring Boot工程，引入依赖。
+##### 创建一个Spring Boot工程，引入依赖。
 
 ```xml
 	<dependency>
