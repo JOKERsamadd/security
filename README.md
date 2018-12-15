@@ -17,7 +17,7 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 ```
-
+请确保Spring可以扫描到cn.net.zhipeng下的所有文件。
 2. ##### 编写配置文件
 
 - 浏览器环境配置项，前缀：zhipeng.security.browser， 参见BrowserProperties
