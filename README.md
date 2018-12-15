@@ -18,7 +18,8 @@
         </dependency>
 ```
 请确保Spring可以扫描到cn.net.zhipeng下的所有文件。
-2. ##### 编写配置文件
+
+##### 编写配置文件
 
 - 浏览器环境配置项，前缀：zhipeng.security.browser， 参见BrowserProperties
 
@@ -71,11 +72,11 @@ app-secret =
 providerId = callback.do
 ```
 
-3. ##### 增加UserDetailsService接口实现
+##### 增加UserDetailsService接口实现
 
-4. ##### 如果需要记住我功能，需要创建数据库表(参见 db.sql)
+##### 如果需要记住我功能，需要创建数据库表(参见 db.sql)
 
-5. ##### 如果需要社交登录功能，需要以下额外的步骤
+##### 如果需要社交登录功能，需要以下额外的步骤
 
    1).配置appId和appSecret
    2).创建并配置用户注册页面，并实现注册服务(需要配置访问权限，如何配置请参考下文)，注意在服务中要调用ProviderSignInUtils的doPostSignUp方法。
